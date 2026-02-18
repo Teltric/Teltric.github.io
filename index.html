@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chris Gravelle | Portfolio</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+		<script src="java.js" defer></script>
+		<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#top">
+          <i class="bi bi-person-badge me-2"></i>Chris Gravelle
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero / Summarizing Statement -->
+    <header id="top" class="hero hero-gradient">
+      <div class="container section-pad hero-gradient px-4">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-10" id="summary">
+            <p class="text-uppercase text-muted small mb-2">Portfolio Showcase</p>
+            <h1 class="display-5 fw-bold mb-3">
+              Hi, I’m <span class="text-primary">Chris Gravelle</span>.
+            </h1>
+            <p class="lead mb-4">
+							I'm Computer Science developer with strong foundations in algorithms, AI, and systems programming, 
+							experienced in building data structures, search/decision engines, database tools, and interactive web applications. 
+							Passionate about writing efficient code, visualizing complex concepts, and creating tools that make technical systems easier to use.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2">
+              <a class="btn btn-primary" href="#projects">
+                <i class="bi bi-kanban me-2"></i>View Projects
+              </a>
+              <a class="btn btn-outline-secondary" href="#contact">
+                <i class="bi bi-envelope me-2"></i>Contact Me
+              </a>
+              <a class="btn btn-outline-success" href="#resume">
+                <i class="bi bi-file-earmark-text me-2"></i>Resume
+              </a>
+            </div>
+
+            <div class="mt-4 d-flex flex-wrap gap-3 text-muted">
+              <span><i class="bi bi-geo-alt me-1"></i>Hamilton, Ontario, Canada</span>
+              <span><i class="bi bi-mortarboard me-1"></i>Mohawk College / Software Development</span>
+              <span><i class="bi bi-lightning-charge me-1"></i>Open to opportunities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Education -->
+    <section id="education" class="section-pad">
+      <div class="container">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-mortarboard fs-3 text-primary"></i>
+          <h2 class="mb-0">Education</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card card-hover h-100">
+              <div class="card-body">
+                <h3 class="h5 mb-1">Mohawk College</h3>
+                <div class="text-muted">Computer Systems Technology - Software Development</div>
+                <div class="text-muted small mb-3">
+                  <i class="bi bi-calendar3 me-1"></i>2025 – 2027
+                </div>
+                <ul class="mb-0">
+                  <li>Data Structures & Algorithms</li>
+                  <li>Intelligent Systems</li>
+									<li>Mobile Web Programming</li>
+									<li>Database Theory</li>
+									<li>Project Management for IT</li>
+                  <li>Dean's List (Winter 2025, Summer 2025, Fall 2025)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-pad bg-light">
+      <div class="container">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-tools fs-3 text-primary"></i>
+          <h2 class="mb-0">Skills</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5"><i class="bi bi-braces me-2"></i>Languages</h3>
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                  <span class="badge rounded-pill text-bg-primary chip">Java</span>
+                  <span class="badge rounded-pill text-bg-primary chip">C#</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Python</span>
+                  <span class="badge rounded-pill text-bg-primary chip">JavaScript</span>
+                  <span class="badge rounded-pill text-bg-primary chip">PHP</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Bash/Shell</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5"><i class="bi bi-boxes me-2"></i>Frameworks & Technologies</h3>
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                  <span class="badge rounded-pill text-bg-primary chip">Node.js</span>
+                  <span class="badge rounded-pill text-bg-primary chip">React</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Bootstrap</span>
+                  <span class="badge rounded-pill text-bg-primary chip">WordPress</span>
+                  <span class="badge rounded-pill text-bg-primary chip">REST APIs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5"><i class="bi bi-window me-2"></i>Tools</h3>
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                  <span class="badge rounded-pill text-bg-primary chip">Git</span>
+                  <span class="badge rounded-pill text-bg-primary chip">VS Code</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Intellij</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Linux</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Figma</span>
+                </div>
+              </div>
+            </div>
+          </div>
+					
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5"><i class="bi bi-bricks me-2"></i>Computer Science Fundamentals</h3>
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                  <span class="badge rounded-pill text-bg-primary chip">Data Structure Algorithms</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Machine Learning</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Game AI</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Database Systems</span>
+                  <span class="badge rounded-pill text-bg-primary chip">Complexity Analysis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<!-- Projects -->
+		<section id="projects" class="section-pad">
+			<div class="container">
+				<div class="d-flex align-items-center gap-2 mb-3">
+					<i class="bi bi-kanban fs-3 text-primary"></i>
+					<h2 class="mb-0">Projects</h2>
+				</div>
+
+				<div class="row g-4">
+					<!-- Project 1 -->
+					<div class="col-md-6 col-lg-4">
+						<div class="card card-hover h-100">
+							<div class="card-body">
+								<h3 class="h5">Search Algorithms Library (with 8-Puzzle + Pathfinding Examples)</h3>
+								<p class="text-muted">
+									A reusable Python search framework that demonstrates classic AI search on real problems like puzzles and robot pathing.
+								</p>
+								<ul class="small mb-3">
+									<li>Implemented BFS, DFS, IDDFS, UCS, Greedy Best-First Search, and A*</li>
+									<li>Included example solvers for 8/9-puzzle and a warehouse robot map</li>
+									<li>Compared strategies using correctness + performance tradeoffs</li>
+								</ul>
+								<div class="d-flex flex-wrap gap-2 mb-3">
+									<span class="badge text-bg-light border">Python</span>
+									<span class="badge text-bg-light border">AI Search</span>
+									<span class="badge text-bg-light border">Data Structures</span>
+								</div>
+								<div class="d-flex gap-2">
+									<a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-box-arrow-up-right me-1"></i>Live
+									</a>
+									<a class="btn btn-sm btn-outline-secondary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-github me-1"></i>Code
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 2 -->
+					<div class="col-md-6 col-lg-4">
+						<div class="card card-hover h-100">
+							<div class="card-body">
+								<h3 class="h5">Game Decision Engine (Minimax + DFS Logic)</h3>
+								<p class="text-muted">
+									A turn-based game AI that explores move trees and selects strong moves using Minimax decision-making.
+								</p>
+								<ul class="small mb-3">
+									<li>Built Minimax using DFS-style state exploration for game trees</li>
+									<li>Tested decision logic on games like Tic-Tac-Toe and chess-like boards</li>
+									<li>Practiced evaluation functions and state representation design</li>
+								</ul>
+								<div class="d-flex flex-wrap gap-2 mb-3">
+									<span class="badge text-bg-light border">Python</span>
+									<span class="badge text-bg-light border">Game AI</span>
+									<span class="badge text-bg-light border">Recursion</span>
+								</div>
+								<div class="d-flex gap-2">
+									<a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-box-arrow-up-right me-1"></i>Live
+									</a>
+									<a class="btn btn-sm btn-outline-secondary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-github me-1"></i>Code
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 3 -->
+					<div class="col-md-6 col-lg-4">
+						<div class="card card-hover h-100">
+							<div class="card-body">
+								<h3 class="h5">Universal Database UI (SQLite + SQL Server)</h3>
+								<p class="text-muted">
+									A general-purpose C# application that lets users browse and edit databases without needing SQL query knowledge.
+								</p>
+								<ul class="small mb-3">
+									<li>Reads tables and supports add/edit/delete with changes pushed back to the database</li>
+									<li>Includes tools like “top ratio by field” and fast searching/filtering</li>
+									<li>Designed to make database work accessible to non-technical users</li>
+								</ul>
+								<div class="d-flex flex-wrap gap-2 mb-3">
+									<span class="badge text-bg-light border">C#</span>
+									<span class="badge text-bg-light border">SQLite</span>
+									<span class="badge text-bg-light border">SQL Server</span>
+									<span class="badge text-bg-light border">UI</span>
+								</div>
+								<div class="d-flex gap-2">
+									<a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-box-arrow-up-right me-1"></i>Live
+									</a>
+									<a class="btn btn-sm btn-outline-secondary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-github me-1"></i>Code
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 4 (extra featured project row) -->
+					<div class="col-md-6 col-lg-4">
+						<div class="card card-hover h-100">
+							<div class="card-body">
+								<h3 class="h5">JavaScript 2D Game Engine (SVG Rendering)</h3>
+								<p class="text-muted">
+									A custom 2D engine built in JavaScript using an FPS game loop and SVG visuals, showcased with a Contra-style mini game.
+								</p>
+								<ul class="small mb-3">
+									<li>Built a frame-based game loop that updates physics each cycle</li>
+									<li>Implemented entity behaviors using JavaScript inheritance/instantiation</li>
+									<li>Created a playable demo to showcase engine architecture</li>
+								</ul>
+								<div class="d-flex flex-wrap gap-2 mb-3">
+									<span class="badge text-bg-light border">JavaScript</span>
+									<span class="badge text-bg-light border">SVG</span>
+									<span class="badge text-bg-light border">Game Loop</span>
+									<span class="badge text-bg-light border">OOP</span>
+								</div>
+								<div class="d-flex gap-2">
+									<a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-box-arrow-up-right me-1"></i>Live
+									</a>
+									<a class="btn btn-sm btn-outline-secondary" href="#" target="_blank" rel="noreferrer">
+										<i class="bi bi-github me-1"></i>Code
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Resume -->
+		<section id="resume" class="section-pad bg-light">
+			<div class="container">
+				<div class="d-flex align-items-center gap-2 mb-3">
+					<i class="bi bi-file-earmark-text fs-3 text-primary"></i>
+					<h2 class="mb-0">Resume</h2>
+				</div>
+
+				<div class="row g-4 align-items-stretch">
+					<div class="col-lg-7">
+						<div class="card h-100">
+							<div class="card-body">
+								<h3 class="h5">Experience Snapshot</h3>
+								<p class="text-muted">
+									A quick summary of past roles focused on impact, reliability, and delivery.
+								</p>
+
+								<div class="mb-3">
+									<div class="fw-semibold">System Administrator</div>
+									<div class="text-muted small">
+										<i class="bi bi-calendar3 me-1"></i>Sept. 2017 – Apr. 2021
+										<span class="mx-2">•</span>
+										<i class="bi bi-geo-alt me-1"></i>City / Remote
+									</div>
+									<ul class="mt-2 mb-0">
+										<li>Maintained Windows/Linux systems and resolved incidents to keep services reliable and available.</li>
+										<li>Automated routine tasks with Bash/Shell and scripting to reduce manual work and speed up operations.</li>
+										<li>Managed users, permissions, and system health (monitoring, backups, updates, and troubleshooting).</li>
+									</ul>
+								</div>
+
+								<div>
+									<div class="fw-semibold">Freelance Programmer — Client Projects</div>
+									<div class="text-muted small">
+										<i class="bi bi-calendar3 me-1"></i>Sept. 2016 – Feb. 2026
+										<span class="mx-2">•</span>
+										<i class="bi bi-geo-alt me-1"></i>Remote
+									</div>
+									<ul class="mt-2 mb-0">
+										<li>Built and delivered custom software solutions (web, automation, and tools) based on client requirements.</li>
+										<li>Handled projects end-to-end: planning, development, testing, revisions, and deployment support.</li>
+										<li>Communicated progress clearly and shipped maintainable code using Git and modern dev tooling.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="card h-100 border-primary">
+							<div class="card-body">
+								<h3 class="h5">Download / View Resume</h3>
+								<p class="text-muted">
+								</p>
+
+								<a class="btn btn-primary w-100 mb-2" href="resume.pdf" target="_blank" rel="noreferrer">
+									<i class="bi bi-download me-2"></i>Download PDF
+								</a>
+								<a class="btn btn-outline-secondary w-100" href="resume.pdf" target="_blank" rel="noreferrer">
+									<i class="bi bi-eye me-2"></i>View Online
+								</a>
+
+								<hr class="my-4" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-pad">
+      <div class="container">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-envelope fs-3 text-primary"></i>
+          <h2 class="mb-0">Contact Information</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5">Reach me here</h3>
+                <p class="text-muted mb-4">
+                </p>
+
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                    <i class="bi bi-envelope-at text-primary"></i>
+                    <a href="mailto:ChrisGravelle52@gmail.com">ChrisGravelle52@gmail.com</a>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                    <i class="bi bi-github text-primary"></i>
+                    <a href="https://github.com/Teltric" target="_blank" rel="noreferrer">GitHub</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-top py-4">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <div class="text-muted small">
+          © <span id="year"></span> Chris Gravelle
+        </div>
+        <div class="d-flex gap-3">
+          <a class="text-muted" href="https://github.com/Teltric" aria-label="GitHub"><i class="bi bi-github fs-5"></i></a>
+          <a class="text-muted" href="mailto:ChrisGravelle52@gmail.com" aria-label="Email"><i class="bi bi-envelope fs-5"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
